@@ -1,11 +1,11 @@
 # 简述 Brief Introduction:
 最新版本 The lastest version：0.0.0.3
-这是一个爆肝5天干出来的爬虫，也是我写得第一个爬虫。  
-This is a spider coding for 5 days and my first one.  
-然而对大多数人来说，它只是批量备份ICE课件并分类的小工具。  
-For most of peoplem, it is just a tool for backup lesson meterials form [XJTLU JCE](https://ice.xjtlu.edu.cn).  
-初次写这种东西，当然有诸多不足，对自己的要求就是能用就好（人生苦短，我要学python）。  
-Many shortages since it is my first spider but enough to use, which is the basic require for myself.  
+这是一个爆肝5天干出来的爬虫，也是我写得第一个爬虫。    
+This is a spider coding for 5 days and my first one.    
+然而对大多数人来说，它只是批量备份ICE课件并分类的小工具。    
+For most of peoplem, it is just a tool for backup lesson meterials form [XJTLU JCE](https://ice.xjtlu.edu.cn).    
+初次写这种东西，当然有诸多不足，对自己的要求就是能用就好（人生苦短，我要学python）。    
+Many shortages since it is my first spider but enough to use, which is the basic require for myself.     
 
 <S>界面是随手画的，本来不打算做图形界面的，然后又花了一整天（手动再见</S>
 
