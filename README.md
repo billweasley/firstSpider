@@ -11,10 +11,6 @@ Many shortages since it is my first spider but enough to use, which is the basic
 
 # 请注意 Notice:
 
-+ 如果机子上没有JRE（Java Runtime Environment）环境，请先解压双击安装JavaSetup8u91.exe(需要联网)，然后再运行IceBackupTool.exe。
-
-+ 如果你不知道什么是JRE，或者更不知道有没有JRE环境，照上一条来做。
-
 + 登陆[地址](https://ice.xjtlu.edu.cn)登陆名为“姓名+入学年”，没有邮箱后缀
 
 + 总体下载时间为大约10到15分钟，文件所需硬盘空间为587 MB（以信息与计算机科学大二为例）。不同专业，不同年级和不同网速应该差别较大（没测试过）。
