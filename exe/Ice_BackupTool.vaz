@@ -1,0 +1,2 @@
+JSR292 invokedynamic: firstspider/UI/SpiderFrame.main([Ljava/lang/String;)V
+JSR292 invokedynamic: firstspider/network/AddressCatcher.loginer(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;

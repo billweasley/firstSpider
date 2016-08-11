@@ -1,0 +1,37 @@
+
+-jetcomponent=11.00
+-jetedition=Evaluation
+-vcode=8040
+-sys=W
+-nosmart
+-zimer=167
+-stack=900000
+-LargeAddressAware
+-config=VMProperty:-Djet.gc.heaplimit:0 -Djet.stack.trace
+-config=ClassPath:*{exe.dir}\firstSpider.jar;*{exe.dir}\jsoup-1.9.2.jar;*{exe.dir}\beansbinding-1.2.1.jar;D:\firstSpider\dist\img
+-config=JETProfile:8040
+-config=JETProfileName:1.8.0_40
+-config=RuntimeKind:DESKTOP
+-EmbeddedFileSys=D:/firstSpider/exe/Ice_BackupTool_jetpdb/Ice_BackupTool.efs
+-config=MainClass:firstspider/UI/SpiderFrame
+-config=StandaloneResources:D:\firstSpider\dist\img
+-config=VersionInfo:jet-1100-release (eval, en)
+-config=CompatibilityString:Java SE version: 1.8.0_40; JET update level: 0; CPU architecture: x86
+-name=Ice_BackupTool.exe
+D:\firstSpider\exe\Ice_BackupTool_jetpdb\version.res
+
+-entry=ExeEntryPoint
+
+-LinkFileAsRData=LINK_SplashPicture:C:\jet11.0-eval-x86\lib\x86\dummysplash.lib
+C:\jet11.0-eval-x86\lib\x86\startup-exe-normal.zip
+-config=PackagingOptions:dlls=java;net;t2k;nio;awt;dcpr;fontmanager;zip component_microversions=BC-0
+-ReadLinkInfo=D:\firstSpider\exe\Ice_BackupTool_jetpdb\reorder.li
+D:\firstSpider\exe\Ice_BackupTool_jetpdb\obj.zip
+-Config=RTComponent:XKRN11008040.dll
+C:\jet11.0-eval-x86\lib\x86\startup-rtlink.zip
+C:\jet11.0-eval-x86\lib\x86\import32.lib
+..\dist\img\favicon.ico
+C:\jet11.0-eval-x86\lib\x86\app.res
+-StrictLinkToDLL
+
+
