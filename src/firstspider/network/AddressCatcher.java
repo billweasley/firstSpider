@@ -105,7 +105,6 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
         String[] values = null;
         while (!addressPool.isEmpty()) {
             values = addressPool.get(addressPool.size() - 1).split("\\|\\|\\|");
-           // System.err.println(addressPool.size());
             try {
                 thisURL = new URL(values[0]);
                 currentPath = values[1];
@@ -205,11 +204,13 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
             d2 = Jsoup.parse(visit.body());
         }
         if (d2 != null) {
-            courseTitles = d2.getElementsByClass("title").select("a");
+           // courseTitles = d2.getElementsByClass("title").select("a");     For 15-16 Edition
+             courseTitles = d2.getElementsByClass("coursebox").select("h3");   // For 16-17 Edition
         }
         Map<String, String> courseMap = new TreeMap();
         for (Element ele : courseTitles) {
-            courseMap.put(ele.attr("title"), ele.attr("href"));
+            // courseMap.put(ele.attr("title"), ele.attr("href"));           For 15-16 Edition
+            courseMap.put(ele.select("a").attr("title"), ele.select("a").attr("href"));    // For 16-17 Edition
         }
         this.courseMap = courseMap;
         return courseMap;
@@ -220,6 +221,8 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
 
         URL thisURL = null;
         for (Entry<String, String> course : courseMap.entrySet()) {
+           // System.out.println("-----------------------------------------------------------------------");
+           // System.out.println(course.getKey());
             Response courseRes = null;
             try {
                 courseRes = Jsoup.connect(course.getValue()).ignoreContentType(true).method(Method.GET).cookies(session).execute();
@@ -227,11 +230,11 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
                 ex.printStackTrace();
             }
             Document d3 = Jsoup.parse(courseRes.body());
-            Elements section = d3.getElementsByAttributeValueContaining("id", "section-");
+            Elements section = d3.getElementsByAttributeValueStarting("id", "section-");
             String currentPath = rootPath + course.getKey() + "\\";
 
             for (Element sec : section) {
-
+                //System.out.println("A new section");
                 String secName = "";
                 try {
                     secName = sec.getElementsByClass("sectionname").first().ownText();
@@ -301,6 +304,7 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
                                 th.start();
                                 d.addObserver(this);
                             } catch (IllegalStateException ies) {
+
                                 addressPool.add(thisURL + "|||" + currentPath + "|||" + new Filename(fileName, infix).toString());
                             }
 
@@ -316,11 +320,13 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
                     String url = "";
                     try {
                         foldername = tempFolderAddr.select("span").first().ownText();
+                        System.out.println(foldername);
                     } catch (NullPointerException nulle) {
                         nulle.printStackTrace();
                     }
                     String parentPath = currentPath;
                     currentPath = currentPath + "\\" + foldername + "\\";
+                   // System.out.println("文件夹路径: "+currentPath);
                     Response folderInnerPage = null;
                     try {
                         folderInnerPage = Jsoup.connect(tempFolderAddrStr).timeout(5000).ignoreContentType(true).method(Method.GET).cookies(session).execute();
@@ -355,6 +361,7 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
                         }
                     }
                     currentPath = parentPath;
+                    //System.out.println("文件夹路径还原为: "+currentPath);
                 }
             }
         }
