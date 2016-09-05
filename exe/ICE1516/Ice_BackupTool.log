@@ -1,0 +1,1451 @@
+Excelsior JET v11.0 Evaluation (c) Excelsior 1997,2015
+Active Java SE Version 1.8.0_40 (profile 8040)
+************************  JET v11.0 EVALUATION **************************
+*  This program cannot be used in a business, commercial, government,  *
+*  or  institutional  environment  except  for  evaluation  purposes.  *
+************************************************************************
+Make project "D:\firstSpider\exe\Ice_BackupTool.prj"
+Reading ../dist/firstSpider.jar ...  18 classes
+Reading ../dist/lib/jsoup-1.9.2.jar ...  235 classes
+Reading ../dist/lib/beansbinding-1.2.1.jar ...  213 classes
+Reading ../dist/img ...  0 classes
+
+Total compilable classes within classpath entries: 466
+
+------------------------  Parsing Stage  ---------------------------------------
+
+   1/466: ..\dist\firstSpider.jar:/firstspider/UI/ConsoleTextArea$1.class
+   2/466: ..\dist\firstSpider.jar:/firstspider/UI/ConsoleTextArea.class
+   3/466: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams$1.class
+   4/466: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams$2.class
+   5/466: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams$3.class
+   6/466: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams.class
+   7/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderFrame$1.class
+   8/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderFrame.class
+   9/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$1.class
+  10/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$2.class
+  11/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$3.class
+  12/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$4.class
+  13/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$5.class
+  14/466: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel.class
+  15/466: ..\dist\firstSpider.jar:/firstspider/local/Downloader.class
+  16/466: ..\dist\firstSpider.jar:/firstspider/local/Filename.class
+  17/466: ..\dist\firstSpider.jar:/firstspider/network/AddressCatcher$miTM.class
+  18/466: ..\dist\firstSpider.jar:/firstspider/network/AddressCatcher.class
+  19/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Base.class
+  20/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$KeyVal.class
+  21/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Method.class
+  22/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Request.class
+  23/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Response.class
+  24/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection.class
+  25/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/HtmlToPlainText$1.class
+  26/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/HtmlToPlainText$FormattingVisitor.class
+  27/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/HtmlToPlainText.class
+  28/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/ListLinks.class
+  29/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DataUtil.class
+  30/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DescendableLinkedList$1.class
+  31/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DescendableLinkedList$DescendingIterator.class
+  32/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DescendableLinkedList.class
+  33/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$1.class
+  34/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Base.class
+  35/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$KeyVal.class
+  36/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Request.class
+  37/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Response$1.class
+  38/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Response$2.class
+  39/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Response.class
+  40/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection.class
+  41/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/StringUtil.class
+  42/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/Validate.class
+  43/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/W3CDom$W3CBuilder.class
+  44/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/W3CDom.class
+  45/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/HttpStatusException.class
+  46/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Jsoup.class
+  47/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attribute.class
+  48/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$1.class
+  49/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$Dataset$DatasetIterator.class
+  50/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$Dataset$EntrySet.class
+  51/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$Dataset.class
+  52/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes.class
+  53/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/BooleanAttribute.class
+  54/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Comment.class
+  55/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/DataNode.class
+  56/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document$OutputSettings$Syntax.class
+  57/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document$OutputSettings.class
+  58/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document$QuirksMode.class
+  59/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document.class
+  60/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/DocumentType.class
+  61/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Element$1.class
+  62/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Element.class
+  63/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities$1.class
+  64/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities$CoreCharset.class
+  65/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities$EscapeMode.class
+  66/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities.class
+  67/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/FormElement.class
+  68/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Node$1.class
+  69/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Node$OuterHtmlVisitor.class
+  70/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Node.class
+  71/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/TextNode.class
+  72/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/XmlDeclaration.class
+  73/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/CharacterReader.class
+  74/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilder.class
+  75/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$1.class
+  76/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$10.class
+  77/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$11.class
+  78/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$12.class
+  79/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$13.class
+  80/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$14.class
+  81/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$15.class
+  82/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$16.class
+  83/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$17.class
+  84/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$18.class
+  85/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$19.class
+  86/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$2.class
+  87/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$20.class
+  88/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$21.class
+  89/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$22.class
+  90/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$23.class
+  91/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$24.class
+  92/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$3.class
+  93/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$4.class
+  94/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$5.class
+  95/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$6.class
+  96/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$7.class
+  97/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$8.class
+  98/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$9.class
+  99/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$Constants.class
+ 100/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState.class
+ 101/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/ParseError.class
+ 102/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/ParseErrorList.class
+ 103/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Parser.class
+ 104/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Tag.class
+ 105/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$1.class
+ 106/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Character.class
+ 107/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Comment.class
+ 108/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Doctype.class
+ 109/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$EndTag.class
+ 110/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$EOF.class
+ 111/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$StartTag.class
+ 112/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Tag.class
+ 113/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$TokenType.class
+ 114/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token.class
+ 115/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Tokeniser.class
+ 116/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$1.class
+ 117/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$10.class
+ 118/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$11.class
+ 119/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$12.class
+ 120/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$13.class
+ 121/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$14.class
+ 122/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$15.class
+ 123/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$16.class
+ 124/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$17.class
+ 125/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$18.class
+ 126/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$19.class
+ 127/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$2.class
+ 128/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$20.class
+ 129/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$21.class
+ 130/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$22.class
+ 131/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$23.class
+ 132/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$24.class
+ 133/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$25.class
+ 134/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$26.class
+ 135/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$27.class
+ 136/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$28.class
+ 137/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$29.class
+ 138/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$3.class
+ 139/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$30.class
+ 140/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$31.class
+ 141/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$32.class
+ 142/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$33.class
+ 143/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$34.class
+ 144/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$35.class
+ 145/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$36.class
+ 146/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$37.class
+ 147/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$38.class
+ 148/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$39.class
+ 149/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$4.class
+ 150/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$40.class
+ 151/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$41.class
+ 152/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$42.class
+ 153/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$43.class
+ 154/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$44.class
+ 155/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$45.class
+ 156/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$46.class
+ 157/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$47.class
+ 158/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$48.class
+ 159/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$49.class
+ 160/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$5.class
+ 161/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$50.class
+ 162/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$51.class
+ 163/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$52.class
+ 164/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$53.class
+ 165/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$54.class
+ 166/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$55.class
+ 167/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$56.class
+ 168/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$57.class
+ 169/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$58.class
+ 170/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$59.class
+ 171/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$6.class
+ 172/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$60.class
+ 173/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$61.class
+ 174/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$62.class
+ 175/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$63.class
+ 176/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$64.class
+ 177/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$65.class
+ 178/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$66.class
+ 179/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$67.class
+ 180/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$7.class
+ 181/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$8.class
+ 182/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$9.class
+ 183/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState.class
+ 184/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokenQueue.class
+ 185/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TreeBuilder.class
+ 186/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/XmlTreeBuilder$1.class
+ 187/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/XmlTreeBuilder.class
+ 188/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner$1.class
+ 189/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner$CleaningVisitor.class
+ 190/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner$ElementMeta.class
+ 191/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner.class
+ 192/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$AttributeKey.class
+ 193/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$AttributeValue.class
+ 194/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$Protocol.class
+ 195/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$TagName.class
+ 196/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$TypedValue.class
+ 197/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist.class
+ 198/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Collector$Accumulator.class
+ 199/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Collector.class
+ 200/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/CombiningEvaluator$And.class
+ 201/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/CombiningEvaluator$Or.class
+ 202/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/CombiningEvaluator.class
+ 203/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Elements.class
+ 204/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AllElements.class
+ 205/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Attribute.class
+ 206/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeKeyPair.class
+ 207/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeStarting.class
+ 208/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValue.class
+ 209/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueContaining.class
+ 210/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueEnding.class
+ 211/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueMatching.class
+ 212/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueNot.class
+ 213/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueStarting.class
+ 214/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Class.class
+ 215/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$ContainsOwnText.class
+ 216/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$ContainsText.class
+ 217/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$CssNthEvaluator.class
+ 218/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Id.class
+ 219/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexEquals.class
+ 220/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexEvaluator.class
+ 221/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexGreaterThan.class
+ 222/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexLessThan.class
+ 223/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsEmpty.class
+ 224/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsFirstChild.class
+ 225/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsFirstOfType.class
+ 226/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsLastChild.class
+ 227/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsLastOfType.class
+ 228/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthChild.class
+ 229/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthLastChild.class
+ 230/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthLastOfType.class
+ 231/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthOfType.class
+ 232/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsOnlyChild.class
+ 233/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsOnlyOfType.class
+ 234/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsRoot.class
+ 235/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Matches.class
+ 236/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$MatchesOwn.class
+ 237/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Tag.class
+ 238/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator.class
+ 239/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/NodeTraversor.class
+ 240/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/NodeVisitor.class
+ 241/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/QueryParser.class
+ 242/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Selector$SelectorParseException.class
+ 243/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Selector.class
+ 244/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Has.class
+ 245/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$ImmediateParent.class
+ 246/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$ImmediatePreviousSibling.class
+ 247/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Not.class
+ 248/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Parent.class
+ 249/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$PreviousSibling.class
+ 250/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Root.class
+ 251/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator.class
+ 252/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/SerializationException.class
+ 253/466: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/UnsupportedMimeTypeException.class
+ 254/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/AbstractBindingListener.class
+ 255/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/AutoBinding$UpdateStrategy.class
+ 256/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/AutoBinding.class
+ 257/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BeanProperty$1.class
+ 258/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BeanProperty$SourceEntry.class
+ 259/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BeanProperty.class
+ 260/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$1.class
+ 261/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$PSL.class
+ 262/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$SyncFailure.class
+ 263/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$SyncFailureType.class
+ 264/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$ValueResult.class
+ 265/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding.class
+ 266/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingGroup$1.class
+ 267/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingGroup$Handler.class
+ 268/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingGroup.class
+ 269/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingListener.class
+ 270/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Bindings.class
+ 271/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$1.class
+ 272/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$10.class
+ 273/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$11.class
+ 274/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$2.class
+ 275/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$3.class
+ 276/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$4.class
+ 277/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$5.class
+ 278/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$6.class
+ 279/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$7.class
+ 280/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$8.class
+ 281/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$9.class
+ 282/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter.class
+ 283/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty$1.class
+ 284/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty$RegisteredListener.class
+ 285/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty$SourceEntry.class
+ 286/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty.class
+ 287/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ObjectProperty.class
+ 288/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Property.class
+ 289/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyHelper.class
+ 290/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath$1.class
+ 291/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath$MultiPropertyPath.class
+ 292/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath$SinglePropertyPath.class
+ 293/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath.class
+ 294/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyResolutionException.class
+ 295/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyStateEvent.class
+ 296/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyStateListener.class
+ 297/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/TempELContext$1.class
+ 298/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/TempELContext$BeanDelegateELResolver.class
+ 299/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/TempELContext.class
+ 300/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Validator$Result.class
+ 301/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Validator.class
+ 302/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ext/BeanAdapterFactory$VendedAdapter.class
+ 303/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ext/BeanAdapterFactory.class
+ 304/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ext/BeanAdapterProvider.class
+ 305/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ArrayELResolver.class
+ 306/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/BeanELResolver$BeanProperties.class
+ 307/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/BeanELResolver$BeanProperty.class
+ 308/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/BeanELResolver.class
+ 309/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/CompositeELResolver$CompositeIterator.class
+ 310/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/CompositeELResolver.class
+ 311/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELContext.class
+ 312/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELContextEvent.class
+ 313/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELContextListener.class
+ 314/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELException.class
+ 315/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELResolver.class
+ 316/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELUtil$1.class
+ 317/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELUtil.class
+ 318/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression$ResolvedProperty.class
+ 319/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression$Result$Type.class
+ 320/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression$Result.class
+ 321/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression.class
+ 322/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ExpressionFactory.class
+ 323/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/FunctionMapper.class
+ 324/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ListELResolver.class
+ 325/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MapELResolver.class
+ 326/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MethodExpression.class
+ 327/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MethodInfo.class
+ 328/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MethodNotFoundException.class
+ 329/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/PropertyNotFoundException.class
+ 330/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/PropertyNotWritableException.class
+ 331/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ResourceBundleELResolver.class
+ 332/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ValueExpression.class
+ 333/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/VariableMapper.class
+ 334/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/ExpressionFactoryImpl.class
+ 335/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/MethodExpressionImpl.class
+ 336/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/MethodExpressionLiteral.class
+ 337/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/ValueExpressionImpl.class
+ 338/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/ValueExpressionLiteral.class
+ 339/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$BigDecimalDelegate.class
+ 340/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$BigIntegerDelegate.class
+ 341/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$DoubleDelegate.class
+ 342/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$LongDelegate.class
+ 343/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic.class
+ 344/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELSupport.class
+ 345/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/EvaluationContext.class
+ 346/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ExpressionBuilder.class
+ 347/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/FunctionMapperFactory.class
+ 348/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/FunctionMapperImpl$Function.class
+ 349/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/FunctionMapperImpl.class
+ 350/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/VariableMapperFactory.class
+ 351/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/VariableMapperImpl.class
+ 352/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ArithmeticNode.class
+ 353/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstAnd.class
+ 354/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstBracketSuffix.class
+ 355/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstChoice.class
+ 356/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstCompositeExpression.class
+ 357/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDeferredExpression.class
+ 358/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDiv.class
+ 359/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDotSuffix.class
+ 360/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDynamicExpression.class
+ 361/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstEmpty.class
+ 362/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstEqual.class
+ 363/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstFalse.class
+ 364/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstFloatingPoint.class
+ 365/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstFunction.class
+ 366/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstGreaterThan.class
+ 367/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstGreaterThanEqual.class
+ 368/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstIdentifier.class
+ 369/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstInteger.class
+ 370/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstLessThan.class
+ 371/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstLessThanEqual.class
+ 372/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstLiteralExpression.class
+ 373/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstMinus.class
+ 374/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstMod.class
+ 375/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstMult.class
+ 376/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNegative.class
+ 377/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNot.class
+ 378/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNotEqual.class
+ 379/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNull.class
+ 380/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstOr.class
+ 381/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstPlus.class
+ 382/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstString.class
+ 383/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstTrue.class
+ 384/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstValue$Target.class
+ 385/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstValue.class
+ 386/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/BooleanNode.class
+ 387/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser$1.class
+ 388/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser$JJCalls.class
+ 389/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser$LookaheadSuccess.class
+ 390/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser.class
+ 391/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParserConstants.class
+ 392/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParserTokenManager.class
+ 393/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParserTreeConstants.class
+ 394/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/JJTELParserState.class
+ 395/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/Node.class
+ 396/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/NodeVisitor.class
+ 397/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ParseException.class
+ 398/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/SimpleCharStream.class
+ 399/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/SimpleNode.class
+ 400/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/Token.class
+ 401/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/TokenMgrError.class
+ 402/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/util/MessageFactory.class
+ 403/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/util/ReflectionUtil.class
+ 404/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$1.class
+ 405/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableListHelper.class
+ 406/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableListImpl.class
+ 407/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableMapImpl$EntryIterator.class
+ 408/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableMapImpl$EntrySet.class
+ 409/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableMapImpl.class
+ 410/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections.class
+ 411/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableList.class
+ 412/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableListListener.class
+ 413/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableMap.class
+ 414/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableMapListener.class
+ 415/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/ElementsProperty$ElementsPropertyStateEvent.class
+ 416/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/ElementsProperty.class
+ 417/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding$1.class
+ 418/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding$BindingComboBoxModel.class
+ 419/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding$Handler.class
+ 420/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding.class
+ 421/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$1.class
+ 422/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$BindingListModel.class
+ 423/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$DetailBinding.class
+ 424/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$Handler.class
+ 425/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding.class
+ 426/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$1.class
+ 427/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$BindingTableModel.class
+ 428/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$ColumnBinding.class
+ 429/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$ColumnProperty.class
+ 430/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$Handler.class
+ 431/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding.class
+ 432/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/SwingBindings.class
+ 433/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider$1.class
+ 434/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider$Adapter$Handler.class
+ 435/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider$Adapter.class
+ 436/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider.class
+ 437/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/BeanAdapterBase.class
+ 438/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider$1.class
+ 439/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider$Adapter$Handler.class
+ 440/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider$Adapter.class
+ 441/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider.class
+ 442/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider$1.class
+ 443/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider$Adapter$Handler.class
+ 444/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider$Adapter.class
+ 445/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider.class
+ 446/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider$1.class
+ 447/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider$Adapter$Handler.class
+ 448/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider$Adapter.class
+ 449/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider.class
+ 450/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider$1.class
+ 451/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider$Adapter$Handler.class
+ 452/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider$Adapter.class
+ 453/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider.class
+ 454/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider$1.class
+ 455/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider$Adapter$Handler.class
+ 456/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider$Adapter.class
+ 457/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider.class
+ 458/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider$1.class
+ 459/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider$Adapter$Handler.class
+ 460/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider$Adapter.class
+ 461/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider.class
+ 462/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/AbstractColumnBinding.class
+ 463/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager$ColumnDescriptionManager$EntryWrapper.class
+ 464/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager$ColumnDescriptionManager.class
+ 465/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager$ReusableBinding.class
+ 466/466: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager.class
+-------------------------------------------------------------------
+files: 466  errors: 0  warnings: 0  notices: 0
+
+------------------------  Codegen Stage  ---------------------------------------
+
+  0% done, 466/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager.class
+errors(0), warnings(0), notes(0); bytes(22906), time  0.21
+  0% done, 465/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager$ReusableBinding.class
+errors(0), warnings(0), notes(0); bytes(8663), time  0.04
+  0% done, 464/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager$ColumnDescriptionManager.class
+errors(0), warnings(0), notes(0); bytes(13455), time  0.03
+  0% done, 463/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/ListBindingManager$ColumnDescriptionManager$EntryWrapper.class
+errors(0), warnings(0), notes(0); bytes(6055), time  0.01
+  0% done, 462/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/impl/AbstractColumnBinding.class
+errors(0), warnings(0), notes(0); bytes(4194), time  0.00
+  1% done, 461/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(9361), time  0.08
+  1% done, 460/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(19659), time  0.06
+  1% done, 459/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(19322), time  0.07
+  1% done, 458/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTextComponentAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(3097), time  0.00
+  1% done, 457/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(65191), time  1.03
+  2% done, 456/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(42535), time  0.35
+  2% done, 455/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(17334), time  0.08
+  2% done, 454/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JTableAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(3009), time  0.00
+  2% done, 453/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(8383), time  0.03
+  3% done, 452/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(9622), time  0.02
+  3% done, 451/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(8574), time  0.01
+  3% done, 450/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSpinnerAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(3031), time  0.00
+  3% done, 449/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(8778), time  0.04
+  3% done, 448/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(11273), time  0.01
+  4% done, 447/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(10997), time  0.03
+  4% done, 446/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JSliderAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(3020), time  0.00
+  4% done, 445/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(21070), time  0.10
+  4% done, 444/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(21157), time  0.10
+  4% done, 443/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(17604), time  0.14
+  5% done, 442/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JListAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(2998), time  0.00
+  5% done, 441/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(8754), time  0.03
+  5% done, 440/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(9712), time  0.00
+  5% done, 439/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(8614), time  0.00
+  6% done, 438/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/JComboBoxAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(3042), time  0.00
+  6% done, 437/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/BeanAdapterBase.class
+errors(0), warnings(0), notes(0); bytes(12417), time  0.03
+  6% done, 436/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(8711), time  0.03
+  6% done, 435/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider$Adapter.class
+errors(0), warnings(0), notes(0); bytes(10009), time  0.02
+  6% done, 434/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider$Adapter$Handler.class
+errors(0), warnings(0), notes(0); bytes(9719), time  0.01
+  7% done, 433/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/adapters/AbstractButtonAdapterProvider$1.class
+errors(0), warnings(0), notes(0); bytes(3097), time  0.00
+  7% done, 432/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/SwingBindings.class
+errors(0), warnings(0), notes(0); bytes(57095), time  0.33
+  7% done, 431/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding.class
+errors(0), warnings(0), notes(0); bytes(47103), time  0.44
+  7% done, 430/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$Handler.class
+errors(0), warnings(0), notes(0); bytes(17093), time  0.11
+  7% done, 429/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$ColumnProperty.class
+errors(0), warnings(0), notes(0); bytes(9653), time  0.02
+  8% done, 428/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$ColumnBinding.class
+errors(0), warnings(0), notes(0); bytes(19965), time  0.06
+  8% done, 427/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$BindingTableModel.class
+errors(0), warnings(0), notes(0); bytes(35621), time  0.28
+  8% done, 426/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JTableBinding$1.class
+errors(0), warnings(0), notes(0); bytes(2786), time  0.00
+  8% done, 425/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding.class
+errors(0), warnings(0), notes(0); bytes(29466), time  0.18
+  9% done, 424/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$Handler.class
+errors(0), warnings(0), notes(0); bytes(13287), time  0.08
+  9% done, 423/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$DetailBinding.class
+errors(0), warnings(0), notes(0); bytes(5783), time  0.00
+  9% done, 422/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$BindingListModel.class
+errors(0), warnings(0), notes(0); bytes(22240), time  0.11
+  9% done, 421/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JListBinding$1.class
+errors(0), warnings(0), notes(0); bytes(7221), time  0.00
+  9% done, 420/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding.class
+errors(0), warnings(0), notes(0); bytes(24938), time  0.22
+ 10% done, 419/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding$Handler.class
+errors(0), warnings(0), notes(0); bytes(13855), time  0.08
+ 10% done, 418/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding$BindingComboBoxModel.class
+errors(0), warnings(0), notes(0); bytes(19878), time  0.12
+ 10% done, 417/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/JComboBoxBinding$1.class
+errors(0), warnings(0), notes(0); bytes(2819), time  0.00
+ 10% done, 416/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/ElementsProperty.class
+errors(0), warnings(0), notes(0); bytes(15985), time  0.08
+ 10% done, 415/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/swingbinding/ElementsProperty$ElementsPropertyStateEvent.class
+errors(0), warnings(0), notes(0); bytes(6928), time  0.02
+ 11% done, 414/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableMapListener.class
+errors(0), warnings(0), notes(0); bytes(2511), time  0.00
+ 11% done, 413/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableMap.class
+errors(0), warnings(0), notes(0); bytes(3458), time  0.00
+ 11% done, 412/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableListListener.class
+errors(0), warnings(0), notes(0); bytes(3224), time  0.00
+ 11% done, 411/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableList.class
+errors(0), warnings(0), notes(0); bytes(4614), time  0.00
+ 12% done, 410/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections.class
+errors(0), warnings(0), notes(0); bytes(9298), time  0.03
+ 12% done, 409/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableMapImpl.class
+errors(0), warnings(0), notes(0); bytes(18760), time  0.04
+ 12% done, 408/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableMapImpl$EntrySet.class
+errors(0), warnings(0), notes(0); bytes(14612), time  0.04
+ 12% done, 407/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableMapImpl$EntryIterator.class
+errors(0), warnings(0), notes(0); bytes(8962), time  0.01
+ 12% done, 406/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableListImpl.class
+errors(0), warnings(0), notes(0); bytes(26718), time  0.08
+ 13% done, 405/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$ObservableListHelper.class
+errors(0), warnings(0), notes(0); bytes(6810), time  0.02
+ 13% done, 404/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/observablecollections/ObservableCollections$1.class
+errors(0), warnings(0), notes(0); bytes(3009), time  0.00
+ 13% done, 403/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/util/ReflectionUtil.class
+errors(0), warnings(0), notes(0); bytes(57754), time  0.77
+ 13% done, 402/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/util/MessageFactory.class
+errors(0), warnings(0), notes(0); bytes(72986), time  2.58
+ 13% done, 401/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/TokenMgrError.class
+errors(0), warnings(0), notes(0); bytes(19091), time  0.17
+ 14% done, 400/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/Token.class
+errors(0), warnings(0), notes(0); bytes(4258), time  0.02
+ 14% done, 399/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/SimpleNode.class
+errors(0), warnings(0), notes(0); bytes(14913), time  0.05
+ 14% done, 398/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/SimpleCharStream.class
+errors(0), warnings(0), notes(0); bytes(39834), time  0.29
+ 14% done, 397/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ParseException.class
+errors(0), warnings(0), notes(0); bytes(21400), time  0.10
+ 15% done, 396/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/NodeVisitor.class
+errors(0), warnings(0), notes(0); bytes(2176), time  0.00
+ 15% done, 395/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/Node.class
+errors(0), warnings(0), notes(0); bytes(3894), time  0.01
+ 15% done, 394/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/JJTELParserState.class
+errors(0), warnings(0), notes(0); bytes(12264), time  0.03
+ 15% done, 393/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParserTreeConstants.class
+errors(0), warnings(0), notes(0); bytes(11676), time  0.02
+ 15% done, 392/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParserTokenManager.class
+errors(0), warnings(0), notes(0); bytes(59181), time  0.64
+ 16% done, 391/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParserConstants.class
+errors(0), warnings(0), notes(0); bytes(16779), time  0.02
+ 16% done, 390/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser.class
+errors(0), warnings(0), notes(0); bytes(84025), time  1.16
+ 16% done, 389/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser$LookaheadSuccess.class
+errors(0), warnings(0), notes(0); bytes(7386), time  0.00
+ 16% done, 388/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser$JJCalls.class
+errors(0), warnings(0), notes(0); bytes(3773), time  0.00
+ 16% done, 387/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ELParser$1.class
+errors(0), warnings(0), notes(0); bytes(2761), time  0.00
+ 17% done, 386/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/BooleanNode.class
+errors(0), warnings(0), notes(0); bytes(5671), time  0.00
+ 17% done, 385/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstValue.class
+errors(0), warnings(0), notes(0); bytes(29794), time  0.36
+ 17% done, 384/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstValue$Target.class
+errors(0), warnings(0), notes(0); bytes(3399), time  0.00
+ 17% done, 383/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstTrue.class
+errors(0), warnings(0), notes(0); bytes(5850), time  0.00
+ 18% done, 382/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstString.class
+errors(0), warnings(0), notes(0); bytes(11357), time  0.07
+ 18% done, 381/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstPlus.class
+errors(0), warnings(0), notes(0); bytes(16067), time  0.41
+ 18% done, 380/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstOr.class
+errors(0), warnings(0), notes(0); bytes(10852), time  0.11
+ 18% done, 379/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNull.class
+errors(0), warnings(0), notes(0); bytes(5639), time  0.00
+ 18% done, 378/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNotEqual.class
+errors(0), warnings(0), notes(0); bytes(6838), time  0.01
+ 19% done, 377/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNot.class
+errors(0), warnings(0), notes(0); bytes(10310), time  0.05
+ 19% done, 376/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstNegative.class
+errors(0), warnings(0), notes(0); bytes(15106), time  0.19
+ 19% done, 375/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstMult.class
+errors(0), warnings(0), notes(0); bytes(16067), time  0.39
+ 19% done, 374/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstMod.class
+errors(0), warnings(0), notes(0); bytes(16053), time  0.40
+ 19% done, 373/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstMinus.class
+errors(0), warnings(0), notes(0); bytes(16081), time  0.39
+ 20% done, 372/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstLiteralExpression.class
+errors(0), warnings(0), notes(0); bytes(10075), time  0.03
+ 20% done, 371/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstLessThanEqual.class
+errors(0), warnings(0), notes(0); bytes(7112), time  0.02
+ 20% done, 370/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstLessThan.class
+errors(0), warnings(0), notes(0); bytes(7042), time  0.02
+ 20% done, 369/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstInteger.class
+errors(0), warnings(0), notes(0); bytes(9293), time  0.04
+ 21% done, 368/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstIdentifier.class
+errors(0), warnings(0), notes(0); bytes(14657), time  0.07
+ 21% done, 367/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstGreaterThanEqual.class
+errors(0), warnings(0), notes(0); bytes(7154), time  0.01
+ 21% done, 366/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstGreaterThan.class
+errors(0), warnings(0), notes(0); bytes(7084), time  0.00
+ 21% done, 365/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstFunction.class
+errors(0), warnings(0), notes(0); bytes(17132), time  0.06
+ 21% done, 364/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstFloatingPoint.class
+errors(0), warnings(0), notes(0); bytes(9962), time  0.05
+ 22% done, 363/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstFalse.class
+errors(0), warnings(0), notes(0); bytes(5866), time  0.00
+ 22% done, 362/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstEqual.class
+errors(0), warnings(0), notes(0); bytes(6796), time  0.02
+ 22% done, 361/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstEmpty.class
+errors(0), warnings(0), notes(0); bytes(8102), time  0.01
+ 22% done, 360/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDynamicExpression.class
+errors(0), warnings(0), notes(0); bytes(7743), time  0.00
+ 22% done, 359/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDotSuffix.class
+errors(0), warnings(0), notes(0); bytes(5391), time  0.02
+ 23% done, 358/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDiv.class
+errors(0), warnings(0), notes(0); bytes(14516), time  0.23
+ 23% done, 357/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstDeferredExpression.class
+errors(0), warnings(0), notes(0); bytes(7763), time  0.00
+ 23% done, 356/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstCompositeExpression.class
+errors(0), warnings(0), notes(0); bytes(11819), time  0.04
+ 23% done, 355/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstChoice.class
+errors(0), warnings(0), notes(0); bytes(13062), time  0.13
+ 24% done, 354/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstBracketSuffix.class
+errors(0), warnings(0), notes(0); bytes(5825), time  0.00
+ 24% done, 353/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/AstAnd.class
+errors(0), warnings(0), notes(0); bytes(10866), time  0.11
+ 24% done, 352/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/parser/ArithmeticNode.class
+errors(0), warnings(0), notes(0); bytes(5710), time  0.00
+ 24% done, 351/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/VariableMapperImpl.class
+errors(0), warnings(0), notes(0); bytes(7723), time  0.01
+ 24% done, 350/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/VariableMapperFactory.class
+errors(0), warnings(0), notes(0); bytes(6463), time  0.00
+ 25% done, 349/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/FunctionMapperImpl.class
+errors(0), warnings(0), notes(0); bytes(9753), time  0.02
+ 25% done, 348/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/FunctionMapperImpl$Function.class
+errors(0), warnings(0), notes(0); bytes(28848), time  0.25
+ 25% done, 347/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/FunctionMapperFactory.class
+errors(0), warnings(0), notes(0); bytes(5273), time  0.00
+ 25% done, 346/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ExpressionBuilder.class
+errors(0), warnings(0), notes(0); bytes(19567), time  0.22
+ 25% done, 345/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/EvaluationContext.class
+errors(0), warnings(0), notes(0); bytes(16634), time  0.05
+ 26% done, 344/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELSupport.class
+errors(0), warnings(0), notes(0); bytes(81824), time  1.73
+ 26% done, 343/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic.class
+errors(0), warnings(0), notes(0); bytes(44425), time  1.91
+ 26% done, 342/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$LongDelegate.class
+errors(0), warnings(0), notes(0); bytes(8489), time  0.01
+ 26% done, 341/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$DoubleDelegate.class
+errors(0), warnings(0), notes(0); bytes(26890), time  0.54
+ 27% done, 340/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$BigIntegerDelegate.class
+errors(0), warnings(0), notes(0); bytes(9636), time  0.03
+ 27% done, 339/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/lang/ELArithmetic$BigDecimalDelegate.class
+errors(0), warnings(0), notes(0); bytes(11009), time  0.01
+ 27% done, 338/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/ValueExpressionLiteral.class
+errors(0), warnings(0), notes(0); bytes(20400), time  0.14
+ 27% done, 337/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/ValueExpressionImpl.class
+errors(0), warnings(0), notes(0); bytes(30023), time  0.19
+ 27% done, 336/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/MethodExpressionLiteral.class
+errors(0), warnings(0), notes(0); bytes(21311), time  0.15
+ 28% done, 335/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/MethodExpressionImpl.class
+errors(0), warnings(0), notes(0); bytes(23413), time  0.21
+ 28% done, 334/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/impl/ExpressionFactoryImpl.class
+errors(0), warnings(0), notes(0); bytes(10052), time  0.04
+ 28% done, 333/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/VariableMapper.class
+errors(0), warnings(0), notes(0); bytes(2423), time  0.00
+ 28% done, 332/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ValueExpression.class
+errors(0), warnings(0), notes(0); bytes(6065), time  0.02
+ 28% done, 331/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ResourceBundleELResolver.class
+errors(0), warnings(0), notes(0); bytes(15697), time  0.07
+ 29% done, 330/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/PropertyNotWritableException.class
+errors(0), warnings(0), notes(0); bytes(8613), time  0.00
+ 29% done, 329/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/PropertyNotFoundException.class
+errors(0), warnings(0), notes(0); bytes(8523), time  0.00
+ 29% done, 328/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MethodNotFoundException.class
+errors(0), warnings(0), notes(0); bytes(8463), time  0.00
+ 29% done, 327/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MethodInfo.class
+errors(0), warnings(0), notes(0); bytes(4439), time  0.02
+ 30% done, 326/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MethodExpression.class
+errors(0), warnings(0), notes(0); bytes(2734), time  0.00
+ 30% done, 325/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/MapELResolver.class
+errors(0), warnings(0), notes(0); bytes(15770), time  0.15
+ 30% done, 324/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ListELResolver.class
+errors(0), warnings(0), notes(0); bytes(15517), time  0.10
+ 30% done, 323/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/FunctionMapper.class
+errors(0), warnings(0), notes(0); bytes(2472), time  0.00
+ 30% done, 322/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ExpressionFactory.class
+errors(0), warnings(0), notes(0); bytes(3421), time  0.00
+ 31% done, 321/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression.class
+errors(0), warnings(0), notes(0); bytes(3208), time  0.00
+ 31% done, 320/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression$Result.class
+errors(0), warnings(0), notes(0); bytes(5656), time  0.01
+ 31% done, 319/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression$Result$Type.class
+errors(0), warnings(0), notes(0); bytes(24028), time  0.13
+ 31% done, 318/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/Expression$ResolvedProperty.class
+errors(0), warnings(0), notes(0); bytes(5864), time  0.01
+ 31% done, 317/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELUtil.class
+errors(0), warnings(0), notes(0); bytes(33431), time  0.56
+ 32% done, 316/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELUtil$1.class
+errors(0), warnings(0), notes(0); bytes(4790), time  0.02
+ 32% done, 315/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELResolver.class
+errors(0), warnings(0), notes(0); bytes(4068), time  0.00
+ 32% done, 314/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELException.class
+errors(0), warnings(0), notes(0); bytes(8817), time  0.00
+ 32% done, 313/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELContextListener.class
+errors(0), warnings(0), notes(0); bytes(2197), time  0.00
+ 33% done, 312/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELContextEvent.class
+errors(0), warnings(0), notes(0); bytes(4353), time  0.01
+ 33% done, 311/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ELContext.class
+errors(0), warnings(0), notes(0); bytes(6959), time  0.00
+ 33% done, 310/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/CompositeELResolver.class
+errors(0), warnings(0), notes(0); bytes(9749), time  0.03
+ 33% done, 309/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/CompositeELResolver$CompositeIterator.class
+errors(0), warnings(0), notes(0); bytes(7939), time  0.00
+ 33% done, 308/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/BeanELResolver.class
+errors(0), warnings(0), notes(0); bytes(69231), time  1.10
+ 34% done, 307/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/BeanELResolver$BeanProperty.class
+errors(0), warnings(0), notes(0); bytes(6524), time  0.02
+ 34% done, 306/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/BeanELResolver$BeanProperties.class
+errors(0), warnings(0), notes(0); bytes(7135), time  0.01
+ 34% done, 305/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/el/ArrayELResolver.class
+errors(0), warnings(0), notes(0); bytes(15701), time  0.28
+ 34% done, 304/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ext/BeanAdapterProvider.class
+errors(0), warnings(0), notes(0); bytes(2649), time  0.00
+ 34% done, 303/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ext/BeanAdapterFactory.class
+errors(0), warnings(0), notes(0); bytes(83634), time  1.04
+ 35% done, 302/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ext/BeanAdapterFactory$VendedAdapter.class
+errors(0), warnings(0), notes(0); bytes(5899), time  0.00
+ 35% done, 301/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Validator.class
+errors(0), warnings(0), notes(0); bytes(2617), time  0.00
+ 35% done, 300/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Validator$Result.class
+errors(0), warnings(0), notes(0); bytes(6332), time  0.03
+ 35% done, 299/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/TempELContext.class
+errors(0), warnings(0), notes(0); bytes(6026), time  0.00
+ 36% done, 298/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/TempELContext$BeanDelegateELResolver.class
+errors(0), warnings(0), notes(0); bytes(45028), time  0.58
+ 36% done, 297/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/TempELContext$1.class
+errors(0), warnings(0), notes(0); bytes(2786), time  0.00
+ 36% done, 296/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyStateListener.class
+errors(0), warnings(0), notes(0); bytes(2397), time  0.00
+ 36% done, 295/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyStateEvent.class
+errors(0), warnings(0), notes(0); bytes(17280), time  0.11
+ 36% done, 294/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyResolutionException.class
+errors(0), warnings(0), notes(0); bytes(7989), time  0.00
+ 37% done, 293/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath.class
+errors(0), warnings(0), notes(0); bytes(13593), time  0.15
+ 37% done, 292/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath$SinglePropertyPath.class
+errors(0), warnings(0), notes(0); bytes(5312), time  0.00
+ 37% done, 291/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath$MultiPropertyPath.class
+errors(0), warnings(0), notes(0); bytes(11788), time  0.08
+ 37% done, 290/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyPath$1.class
+errors(0), warnings(0), notes(0); bytes(2775), time  0.00
+ 37% done, 289/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/PropertyHelper.class
+errors(0), warnings(0), notes(0); bytes(11622), time  0.06
+ 38% done, 288/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Property.class
+errors(0), warnings(0), notes(0); bytes(3905), time  0.00
+ 38% done, 287/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ObjectProperty.class
+errors(0), warnings(0), notes(0); bytes(9545), time  0.03
+ 38% done, 286/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty.class
+errors(0), warnings(0), notes(0); bytes(91914), time  1.05
+ 38% done, 285/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty$SourceEntry.class
+errors(0), warnings(0), notes(0); bytes(51585), time  0.60
+ 39% done, 284/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty$RegisteredListener.class
+errors(0), warnings(0), notes(0); bytes(7312), time  0.01
+ 39% done, 283/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/ELProperty$1.class
+errors(0), warnings(0), notes(0); bytes(2753), time  0.00
+ 39% done, 282/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter.class
+errors(0), warnings(0), notes(0); bytes(11934), time  0.08
+ 39% done, 281/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$9.class
+errors(0), warnings(0), notes(0); bytes(6068), time  0.02
+ 39% done, 280/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$8.class
+errors(0), warnings(0), notes(0); bytes(4979), time  0.00
+ 40% done, 279/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$7.class
+errors(0), warnings(0), notes(0); bytes(7499), time  0.01
+ 40% done, 278/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$6.class
+errors(0), warnings(0), notes(0); bytes(5549), time  0.02
+ 40% done, 277/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$5.class
+errors(0), warnings(0), notes(0); bytes(5532), time  0.00
+ 40% done, 276/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$4.class
+errors(0), warnings(0), notes(0); bytes(5947), time  0.01
+ 40% done, 275/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$3.class
+errors(0), warnings(0), notes(0); bytes(6126), time  0.00
+ 41% done, 274/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$2.class
+errors(0), warnings(0), notes(0); bytes(6389), time  0.01
+ 41% done, 273/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$11.class
+errors(0), warnings(0), notes(0); bytes(6209), time  0.00
+ 41% done, 272/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$10.class
+errors(0), warnings(0), notes(0); bytes(4736), time  0.02
+ 41% done, 271/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Converter$1.class
+errors(0), warnings(0), notes(0); bytes(6303), time  0.00
+ 42% done, 270/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Bindings.class
+errors(0), warnings(0), notes(0); bytes(10404), time  0.03
+ 42% done, 269/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingListener.class
+errors(0), warnings(0), notes(0); bytes(2788), time  0.00
+ 42% done, 268/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingGroup.class
+errors(0), warnings(0), notes(0); bytes(27993), time  0.20
+ 42% done, 267/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingGroup$Handler.class
+errors(0), warnings(0), notes(0); bytes(9922), time  0.04
+ 42% done, 266/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BindingGroup$1.class
+errors(0), warnings(0), notes(0); bytes(2775), time  0.00
+ 43% done, 265/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding.class
+errors(0), warnings(0), notes(0); bytes(70088), time  0.37
+ 43% done, 264/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$ValueResult.class
+errors(0), warnings(0), notes(0); bytes(10331), time  0.03
+ 43% done, 263/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$SyncFailureType.class
+errors(0), warnings(0), notes(0); bytes(25892), time  0.13
+ 43% done, 262/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$SyncFailure.class
+errors(0), warnings(0), notes(0); bytes(15123), time  0.04
+ 43% done, 261/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$PSL.class
+errors(0), warnings(0), notes(0); bytes(5866), time  0.02
+ 44% done, 260/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/Binding$1.class
+errors(0), warnings(0), notes(0); bytes(2720), time  0.00
+ 44% done, 259/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BeanProperty.class
+errors(0), warnings(0), notes(0); bytes(144169), time  8.11
+ 44% done, 258/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BeanProperty$SourceEntry.class
+errors(0), warnings(0), notes(0); bytes(77676), time  1.52
+ 44% done, 257/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/BeanProperty$1.class
+errors(0), warnings(0), notes(0); bytes(2775), time  0.00
+ 45% done, 256/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/AutoBinding.class
+errors(0), warnings(0), notes(0); bytes(34778), time  0.45
+ 45% done, 255/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/AutoBinding$UpdateStrategy.class
+errors(0), warnings(0), notes(0); bytes(24718), time  0.13
+ 45% done, 254/466 to go: ..\dist\lib\beansbinding-1.2.1.jar:/org/jdesktop/beansbinding/AbstractBindingListener.class
+errors(0), warnings(0), notes(0); bytes(5768), time  0.01
+ 45% done, 253/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/UnsupportedMimeTypeException.class
+errors(0), warnings(0), notes(0); bytes(9844), time  0.25
+ 45% done, 252/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/SerializationException.class
+errors(0), warnings(0), notes(0); bytes(8915), time  0.02
+ 46% done, 251/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator.class
+errors(0), warnings(0), notes(0); bytes(2767), time  0.00
+ 46% done, 250/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Root.class
+errors(0), warnings(0), notes(0); bytes(3696), time  0.00
+ 46% done, 249/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$PreviousSibling.class
+errors(0), warnings(0), notes(0); bytes(10888), time  0.05
+ 46% done, 248/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Parent.class
+errors(0), warnings(0), notes(0); bytes(10875), time  0.01
+ 46% done, 247/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Not.class
+errors(0), warnings(0), notes(0); bytes(10617), time  0.03
+ 47% done, 246/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$ImmediatePreviousSibling.class
+errors(0), warnings(0), notes(0); bytes(10986), time  0.02
+ 47% done, 245/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$ImmediateParent.class
+errors(0), warnings(0), notes(0); bytes(10951), time  0.02
+ 47% done, 244/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/StructuralEvaluator$Has.class
+errors(0), warnings(0), notes(0); bytes(12991), time  0.05
+ 47% done, 243/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Selector.class
+errors(0), warnings(0), notes(0); bytes(24611), time  0.22
+ 48% done, 242/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Selector$SelectorParseException.class
+errors(0), warnings(0), notes(0); bytes(7347), time  0.00
+ 48% done, 241/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/QueryParser.class
+errors(0), warnings(0), notes(0); bytes(67911), time  0.64
+ 48% done, 240/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/NodeVisitor.class
+errors(0), warnings(0), notes(0); bytes(2217), time  0.00
+ 48% done, 239/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/NodeTraversor.class
+errors(0), warnings(0), notes(0); bytes(4053), time  0.02
+ 48% done, 238/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator.class
+errors(0), warnings(0), notes(0); bytes(4937), time  0.00
+ 49% done, 237/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Tag.class
+errors(0), warnings(0), notes(0); bytes(10840), time  0.02
+ 49% done, 236/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$MatchesOwn.class
+errors(0), warnings(0), notes(0); bytes(12719), time  0.06
+ 49% done, 235/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Matches.class
+errors(0), warnings(0), notes(0); bytes(12668), time  0.04
+ 49% done, 234/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsRoot.class
+errors(0), warnings(0), notes(0); bytes(4300), time  0.00
+ 50% done, 233/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsOnlyOfType.class
+errors(0), warnings(0), notes(0); bytes(5209), time  0.02
+ 50% done, 232/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsOnlyChild.class
+errors(0), warnings(0), notes(0); bytes(4382), time  0.01
+ 50% done, 231/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthOfType.class
+errors(0), warnings(0), notes(0); bytes(5510), time  0.00
+ 50% done, 230/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthLastOfType.class
+errors(0), warnings(0), notes(0); bytes(6322), time  0.00
+ 50% done, 229/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthLastChild.class
+errors(0), warnings(0), notes(0); bytes(4895), time  0.00
+ 51% done, 228/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsNthChild.class
+errors(0), warnings(0), notes(0); bytes(4421), time  0.00
+ 51% done, 227/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsLastOfType.class
+errors(0), warnings(0), notes(0); bytes(3588), time  0.00
+ 51% done, 226/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsLastChild.class
+errors(0), warnings(0), notes(0); bytes(4563), time  0.00
+ 51% done, 225/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsFirstOfType.class
+errors(0), warnings(0), notes(0); bytes(3591), time  0.02
+ 51% done, 224/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsFirstChild.class
+errors(0), warnings(0), notes(0); bytes(4335), time  0.00
+ 52% done, 223/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IsEmpty.class
+errors(0), warnings(0), notes(0); bytes(6778), time  0.01
+ 52% done, 222/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexLessThan.class
+errors(0), warnings(0), notes(0); bytes(11778), time  0.03
+ 52% done, 221/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexGreaterThan.class
+errors(0), warnings(0), notes(0); bytes(11823), time  0.02
+ 52% done, 220/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexEvaluator.class
+errors(0), warnings(0), notes(0); bytes(2522), time  0.00
+ 53% done, 219/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$IndexEquals.class
+errors(0), warnings(0), notes(0); bytes(11748), time  0.03
+ 53% done, 218/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Id.class
+errors(0), warnings(0), notes(0); bytes(10875), time  0.03
+ 53% done, 217/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$CssNthEvaluator.class
+errors(0), warnings(0), notes(0); bytes(15828), time  0.10
+ 53% done, 216/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$ContainsText.class
+errors(0), warnings(0), notes(0); bytes(11942), time  0.01
+ 53% done, 215/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$ContainsOwnText.class
+errors(0), warnings(0), notes(0); bytes(11993), time  0.03
+ 54% done, 214/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Class.class
+errors(0), warnings(0), notes(0); bytes(10457), time  0.02
+ 54% done, 213/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueStarting.class
+errors(0), warnings(0), notes(0); bytes(11712), time  0.03
+ 54% done, 212/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueNot.class
+errors(0), warnings(0), notes(0); bytes(11222), time  0.01
+ 54% done, 211/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueMatching.class
+errors(0), warnings(0), notes(0); bytes(13603), time  0.05
+ 54% done, 210/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueEnding.class
+errors(0), warnings(0), notes(0); bytes(11682), time  0.01
+ 55% done, 209/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValueContaining.class
+errors(0), warnings(0), notes(0); bytes(12110), time  0.03
+ 55% done, 208/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeWithValue.class
+errors(0), warnings(0), notes(0); bytes(12224), time  0.04
+ 55% done, 207/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeStarting.class
+errors(0), warnings(0), notes(0); bytes(11431), time  0.03
+ 55% done, 206/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AttributeKeyPair.class
+errors(0), warnings(0), notes(0); bytes(3926), time  0.00
+ 56% done, 205/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$Attribute.class
+errors(0), warnings(0), notes(0); bytes(10550), time  0.03
+ 56% done, 204/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Evaluator$AllElements.class
+errors(0), warnings(0), notes(0); bytes(3753), time  0.00
+ 56% done, 203/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Elements.class
+errors(0), warnings(0), notes(0); bytes(81423), time  0.87
+ 56% done, 202/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/CombiningEvaluator.class
+errors(0), warnings(0), notes(0); bytes(5806), time  0.00
+ 56% done, 201/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/CombiningEvaluator$Or.class
+errors(0), warnings(0), notes(0); bytes(13024), time  0.03
+ 57% done, 200/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/CombiningEvaluator$And.class
+errors(0), warnings(0), notes(0); bytes(11307), time  0.05
+ 57% done, 199/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Collector.class
+errors(0), warnings(0), notes(0); bytes(4459), time  0.01
+ 57% done, 198/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/select/Collector$Accumulator.class
+errors(0), warnings(0), notes(0); bytes(4796), time  0.00
+ 57% done, 197/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist.class
+errors(0), warnings(0), notes(0); bytes(49191), time  0.47
+ 57% done, 196/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$TypedValue.class
+errors(0), warnings(0), notes(0); bytes(6319), time  0.11
+ 58% done, 195/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$TagName.class
+errors(0), warnings(0), notes(0); bytes(4013), time  0.02
+ 58% done, 194/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$Protocol.class
+errors(0), warnings(0), notes(0); bytes(4026), time  0.00
+ 58% done, 193/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$AttributeValue.class
+errors(0), warnings(0), notes(0); bytes(4104), time  0.00
+ 58% done, 192/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Whitelist$AttributeKey.class
+errors(0), warnings(0), notes(0); bytes(4078), time  0.00
+ 59% done, 191/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner.class
+errors(0), warnings(0), notes(0); bytes(28641), time  0.34
+ 59% done, 190/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner$ElementMeta.class
+errors(0), warnings(0), notes(0); bytes(3519), time  0.00
+ 59% done, 189/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner$CleaningVisitor.class
+errors(0), warnings(0), notes(0); bytes(12815), time  0.09
+ 59% done, 188/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/safety/Cleaner$1.class
+errors(0), warnings(0), notes(0); bytes(2547), time  0.00
+ 59% done, 187/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/XmlTreeBuilder.class
+errors(0), warnings(0), notes(0); bytes(33746), time  0.23
+ 60% done, 186/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/XmlTreeBuilder$1.class
+errors(0), warnings(0), notes(0); bytes(6270), time  0.02
+ 60% done, 185/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TreeBuilder.class
+errors(0), warnings(0), notes(0); bytes(19038), time  0.08
+ 60% done, 184/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokenQueue.class
+errors(0), warnings(0), notes(0); bytes(31582), time  0.19
+ 60% done, 183/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState.class
+errors(0), warnings(0), notes(0); bytes(91246), time  0.67
+ 60% done, 182/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$9.class
+errors(0), warnings(0), notes(0); bytes(12395), time  0.07
+ 61% done, 181/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$8.class
+errors(0), warnings(0), notes(0); bytes(12965), time  0.06
+ 61% done, 180/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$7.class
+errors(0), warnings(0), notes(0); bytes(12819), time  0.06
+ 61% done, 179/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$67.class
+errors(0), warnings(0), notes(0); bytes(9403), time  0.07
+ 61% done, 178/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$66.class
+errors(0), warnings(0), notes(0); bytes(6063), time  0.01
+ 62% done, 177/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$65.class
+errors(0), warnings(0), notes(0); bytes(11005), time  0.03
+ 62% done, 176/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$64.class
+errors(0), warnings(0), notes(0); bytes(13161), time  0.07
+ 62% done, 175/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$63.class
+errors(0), warnings(0), notes(0); bytes(13161), time  0.07
+ 62% done, 174/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$62.class
+errors(0), warnings(0), notes(0); bytes(12337), time  0.07
+ 62% done, 173/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$61.class
+errors(0), warnings(0), notes(0); bytes(10231), time  0.04
+ 63% done, 172/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$60.class
+errors(0), warnings(0), notes(0); bytes(11629), time  0.06
+ 63% done, 171/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$6.class
+errors(0), warnings(0), notes(0); bytes(13388), time  0.06
+ 63% done, 170/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$59.class
+errors(0), warnings(0), notes(0); bytes(11702), time  0.05
+ 63% done, 169/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$58.class
+errors(0), warnings(0), notes(0); bytes(13161), time  0.06
+ 63% done, 168/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$57.class
+errors(0), warnings(0), notes(0); bytes(13161), time  0.07
+ 64% done, 167/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$56.class
+errors(0), warnings(0), notes(0); bytes(12337), time  0.04
+ 64% done, 166/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$55.class
+errors(0), warnings(0), notes(0); bytes(11083), time  0.07
+ 64% done, 165/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$54.class
+errors(0), warnings(0), notes(0); bytes(12968), time  0.06
+ 64% done, 164/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$53.class
+errors(0), warnings(0), notes(0); bytes(13009), time  0.08
+ 65% done, 163/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$52.class
+errors(0), warnings(0), notes(0); bytes(11114), time  0.06
+ 65% done, 162/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$51.class
+errors(0), warnings(0), notes(0); bytes(12923), time  0.06
+ 65% done, 161/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$50.class
+errors(0), warnings(0), notes(0); bytes(13534), time  0.05
+ 65% done, 160/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$5.class
+errors(0), warnings(0), notes(0); bytes(13385), time  0.08
+ 65% done, 159/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$49.class
+errors(0), warnings(0), notes(0); bytes(10365), time  0.06
+ 66% done, 158/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$48.class
+errors(0), warnings(0), notes(0); bytes(12912), time  0.06
+ 66% done, 157/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$47.class
+errors(0), warnings(0), notes(0); bytes(13861), time  0.08
+ 66% done, 156/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$46.class
+errors(0), warnings(0), notes(0); bytes(13267), time  0.06
+ 66% done, 155/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$45.class
+errors(0), warnings(0), notes(0); bytes(13267), time  0.07
+ 66% done, 154/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$44.class
+errors(0), warnings(0), notes(0); bytes(11166), time  0.03
+ 67% done, 153/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$43.class
+errors(0), warnings(0), notes(0); bytes(11687), time  0.10
+ 67% done, 152/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$42.class
+errors(0), warnings(0), notes(0); bytes(11087), time  0.03
+ 67% done, 151/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$41.class
+errors(0), warnings(0), notes(0); bytes(11284), time  0.04
+ 67% done, 150/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$40.class
+errors(0), warnings(0), notes(0); bytes(11060), time  0.06
+ 68% done, 149/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$4.class
+errors(0), warnings(0), notes(0); bytes(6922), time  0.02
+ 68% done, 148/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$39.class
+errors(0), warnings(0), notes(0); bytes(11565), time  0.08
+ 68% done, 147/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$38.class
+errors(0), warnings(0), notes(0); bytes(11697), time  0.06
+ 68% done, 146/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$37.class
+errors(0), warnings(0), notes(0); bytes(10973), time  0.06
+ 68% done, 145/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$36.class
+errors(0), warnings(0), notes(0); bytes(11993), time  0.06
+ 69% done, 144/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$35.class
+errors(0), warnings(0), notes(0); bytes(12415), time  0.10
+ 69% done, 143/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$34.class
+errors(0), warnings(0), notes(0); bytes(13686), time  0.06
+ 69% done, 142/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$33.class
+errors(0), warnings(0), notes(0); bytes(11705), time  0.08
+ 69% done, 141/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$32.class
+errors(0), warnings(0), notes(0); bytes(8122), time  0.01
+ 69% done, 140/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$31.class
+errors(0), warnings(0), notes(0); bytes(12053), time  0.05
+ 70% done, 139/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$30.class
+errors(0), warnings(0), notes(0); bytes(11686), time  0.04
+ 70% done, 138/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$3.class
+errors(0), warnings(0), notes(0); bytes(13633), time  0.08
+ 70% done, 137/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$29.class
+errors(0), warnings(0), notes(0); bytes(11608), time  0.08
+ 70% done, 136/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$28.class
+errors(0), warnings(0), notes(0); bytes(11705), time  0.06
+ 71% done, 135/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$27.class
+errors(0), warnings(0), notes(0); bytes(4643), time  0.02
+ 71% done, 134/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$26.class
+errors(0), warnings(0), notes(0); bytes(10691), time  0.05
+ 71% done, 133/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$25.class
+errors(0), warnings(0), notes(0); bytes(9696), time  0.04
+ 71% done, 132/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$24.class
+errors(0), warnings(0), notes(0); bytes(11929), time  0.04
+ 71% done, 131/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$23.class
+errors(0), warnings(0), notes(0); bytes(11296), time  0.06
+ 72% done, 130/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$22.class
+errors(0), warnings(0), notes(0); bytes(11830), time  0.06
+ 72% done, 129/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$21.class
+errors(0), warnings(0), notes(0); bytes(7639), time  0.03
+ 72% done, 128/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$20.class
+errors(0), warnings(0), notes(0); bytes(7639), time  0.04
+ 72% done, 127/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$2.class
+errors(0), warnings(0), notes(0); bytes(6920), time  0.01
+ 72% done, 126/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$19.class
+errors(0), warnings(0), notes(0); bytes(4636), time  0.00
+ 73% done, 125/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$18.class
+errors(0), warnings(0), notes(0); bytes(8278), time  0.02
+ 73% done, 124/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$17.class
+errors(0), warnings(0), notes(0); bytes(8529), time  0.04
+ 73% done, 123/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$16.class
+errors(0), warnings(0), notes(0); bytes(4633), time  0.00
+ 73% done, 122/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$15.class
+errors(0), warnings(0), notes(0); bytes(8272), time  0.04
+ 74% done, 121/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$14.class
+errors(0), warnings(0), notes(0); bytes(8066), time  0.01
+ 74% done, 120/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$13.class
+errors(0), warnings(0), notes(0); bytes(14672), time  0.08
+ 74% done, 119/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$12.class
+errors(0), warnings(0), notes(0); bytes(10581), time  0.05
+ 74% done, 118/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$11.class
+errors(0), warnings(0), notes(0); bytes(11602), time  0.05
+ 74% done, 117/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$10.class
+errors(0), warnings(0), notes(0); bytes(12398), time  0.09
+ 75% done, 116/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/TokeniserState$1.class
+errors(0), warnings(0), notes(0); bytes(13206), time  0.06
+ 75% done, 115/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Tokeniser.class
+errors(0), warnings(0), notes(0); bytes(47757), time  0.38
+ 75% done, 114/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token.class
+errors(0), warnings(0), notes(0); bytes(20019), time  0.09
+ 75% done, 113/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$TokenType.class
+errors(0), warnings(0), notes(0); bytes(24929), time  0.14
+ 75% done, 112/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Tag.class
+errors(0), warnings(0), notes(0); bytes(21768), time  0.14
+ 76% done, 111/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$StartTag.class
+errors(0), warnings(0), notes(0); bytes(8149), time  0.03
+ 76% done, 110/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$EOF.class
+errors(0), warnings(0), notes(0); bytes(3499), time  0.00
+ 76% done, 109/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$EndTag.class
+errors(0), warnings(0), notes(0); bytes(5424), time  0.00
+ 76% done, 108/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Doctype.class
+errors(0), warnings(0), notes(0); bytes(8277), time  0.02
+ 77% done, 107/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Comment.class
+errors(0), warnings(0), notes(0); bytes(7788), time  0.01
+ 77% done, 106/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$Character.class
+errors(0), warnings(0), notes(0); bytes(4238), time  0.02
+ 77% done, 105/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Token$1.class
+errors(0), warnings(0), notes(0); bytes(2525), time  0.00
+ 77% done, 104/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Tag.class
+errors(0), warnings(0), notes(0); bytes(25877), time  0.11
+ 77% done, 103/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/Parser.class
+errors(0), warnings(0), notes(0); bytes(52984), time  0.36
+ 78% done, 102/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/ParseErrorList.class
+errors(0), warnings(0), notes(0); bytes(14755), time  0.01
+ 78% done, 101/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/ParseError.class
+errors(0), warnings(0), notes(0); bytes(5462), time  0.00
+ 78% done, 100/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState.class
+errors(0), warnings(0), notes(0); bytes(40909), time  0.18
+ 78% done, 99/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$Constants.class
+errors(0), warnings(0), notes(0); bytes(19023), time  0.03
+ 78% done, 98/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$9.class
+errors(0), warnings(0), notes(0); bytes(12124), time  0.11
+ 79% done, 97/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$8.class
+errors(0), warnings(0), notes(0); bytes(5546), time  0.00
+ 79% done, 96/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$7.class
+errors(0), warnings(0), notes(0); bytes(25832), time  0.60
+ 79% done, 95/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$6.class
+errors(0), warnings(0), notes(0); bytes(10682), time  0.07
+ 79% done, 94/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$5.class
+errors(0), warnings(0), notes(0); bytes(10533), time  0.07
+ 80% done, 93/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$4.class
+errors(0), warnings(0), notes(0); bytes(11489), time  0.06
+ 80% done, 92/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$3.class
+errors(0), warnings(0), notes(0); bytes(9020), time  0.05
+ 80% done, 91/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$24.class
+errors(0), warnings(0), notes(0); bytes(6366), time  0.00
+ 80% done, 90/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$23.class
+errors(0), warnings(0), notes(0); bytes(4686), time  0.01
+ 80% done, 89/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$22.class
+errors(0), warnings(0), notes(0); bytes(8017), time  0.02
+ 81% done, 88/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$21.class
+errors(0), warnings(0), notes(0); bytes(7787), time  0.01
+ 81% done, 87/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$20.class
+errors(0), warnings(0), notes(0); bytes(8454), time  0.05
+ 81% done, 86/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$2.class
+errors(0), warnings(0), notes(0); bytes(9348), time  0.03
+ 81% done, 85/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$19.class
+errors(0), warnings(0), notes(0); bytes(9321), time  0.05
+ 81% done, 84/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$18.class
+errors(0), warnings(0), notes(0); bytes(8221), time  0.06
+ 82% done, 83/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$17.class
+errors(0), warnings(0), notes(0); bytes(8960), time  0.06
+ 82% done, 82/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$16.class
+errors(0), warnings(0), notes(0); bytes(10723), time  0.07
+ 82% done, 81/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$15.class
+errors(0), warnings(0), notes(0); bytes(12112), time  0.09
+ 82% done, 80/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$14.class
+errors(0), warnings(0), notes(0); bytes(10098), time  0.06
+ 83% done, 79/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$13.class
+errors(0), warnings(0), notes(0); bytes(12489), time  0.10
+ 83% done, 78/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$12.class
+errors(0), warnings(0), notes(0); bytes(9545), time  0.04
+ 83% done, 77/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$11.class
+errors(0), warnings(0), notes(0); bytes(10100), time  0.07
+ 83% done, 76/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$10.class
+errors(0), warnings(0), notes(0); bytes(8952), time  0.03
+ 83% done, 75/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilderState$1.class
+errors(0), warnings(0), notes(0); bytes(10557), time  0.05
+ 84% done, 74/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/HtmlTreeBuilder.class
+errors(0), warnings(0), notes(0); bytes(103119), time  0.91
+ 84% done, 73/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/parser/CharacterReader.class
+errors(0), warnings(0), notes(0); bytes(37756), time  0.45
+ 84% done, 72/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/XmlDeclaration.class
+errors(0), warnings(0), notes(0); bytes(10343), time  0.02
+ 84% done, 71/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/TextNode.class
+errors(0), warnings(0), notes(0); bytes(64741), time  0.75
+ 84% done, 70/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Node.class
+errors(0), warnings(0), notes(0); bytes(64681), time  0.50
+ 85% done, 69/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Node$OuterHtmlVisitor.class
+errors(0), warnings(0), notes(0); bytes(5969), time  0.00
+ 85% done, 68/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Node$1.class
+errors(0), warnings(0), notes(0); bytes(4163), time  0.00
+ 85% done, 67/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/FormElement.class
+errors(0), warnings(0), notes(0); bytes(24000), time  0.14
+ 85% done, 66/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities.class
+errors(0), warnings(0), notes(0); bytes(52109), time  0.45
+ 86% done, 65/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities$EscapeMode.class
+errors(0), warnings(0), notes(0); bytes(25094), time  0.14
+ 86% done, 64/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities$CoreCharset.class
+errors(0), warnings(0), notes(0); bytes(25953), time  0.14
+ 86% done, 63/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Entities$1.class
+errors(0), warnings(0), notes(0); bytes(4933), time  0.00
+ 86% done, 62/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Element.class
+errors(0), warnings(0), notes(0); bytes(176142), time  1.90
+ 86% done, 61/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Element$1.class
+errors(0), warnings(0), notes(0); bytes(11961), time  0.09
+ 87% done, 60/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/DocumentType.class
+errors(0), warnings(0), notes(0); bytes(13710), time  0.09
+ 87% done, 59/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document.class
+errors(0), warnings(0), notes(0); bytes(69518), time  0.90
+ 87% done, 58/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document$QuirksMode.class
+errors(0), warnings(0), notes(0); bytes(24198), time  0.13
+ 87% done, 57/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document$OutputSettings.class
+errors(0), warnings(0), notes(0); bytes(36518), time  0.27
+ 87% done, 56/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Document$OutputSettings$Syntax.class
+errors(0), warnings(0), notes(0); bytes(24144), time  0.15
+ 88% done, 55/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/DataNode.class
+errors(0), warnings(0), notes(0); bytes(18952), time  0.08
+ 88% done, 54/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Comment.class
+errors(0), warnings(0), notes(0); bytes(8681), time  0.01
+ 88% done, 53/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/BooleanAttribute.class
+errors(0), warnings(0), notes(0); bytes(4601), time  0.00
+ 88% done, 52/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes.class
+errors(0), warnings(0), notes(0); bytes(34048), time  0.16
+ 89% done, 51/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$Dataset.class
+errors(0), warnings(0), notes(0); bytes(15002), time  0.03
+ 89% done, 50/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$Dataset$EntrySet.class
+errors(0), warnings(0), notes(0); bytes(11071), time  0.02
+ 89% done, 49/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$Dataset$DatasetIterator.class
+errors(0), warnings(0), notes(0); bytes(11823), time  0.03
+ 89% done, 48/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attributes$1.class
+errors(0), warnings(0), notes(0); bytes(2565), time  0.00
+ 89% done, 47/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/nodes/Attribute.class
+errors(0), warnings(0), notes(0); bytes(34513), time  0.18
+ 90% done, 46/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Jsoup.class
+errors(0), warnings(0), notes(0); bytes(80824), time  0.74
+ 90% done, 45/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/HttpStatusException.class
+errors(0), warnings(0), notes(0); bytes(9459), time  0.01
+ 90% done, 44/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/W3CDom.class
+errors(0), warnings(0), notes(0); bytes(14823), time  0.07
+ 90% done, 43/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/W3CDom$W3CBuilder.class
+errors(0), warnings(0), notes(0); bytes(13882), time  0.15
+ 90% done, 42/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/Validate.class
+errors(0), warnings(0), notes(0); bytes(9073), time  0.03
+ 91% done, 41/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/StringUtil.class
+errors(0), warnings(0), notes(0); bytes(29917), time  0.28
+ 91% done, 40/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection.class
+errors(0), warnings(0), notes(0); bytes(57846), time  0.58
+ 91% done, 39/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Response.class
+errors(0), warnings(0), notes(0); bytes(122802), time  1.42
+ 91% done, 38/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Response$2.class
+errors(0), warnings(0), notes(0); bytes(4956), time  0.00
+ 92% done, 37/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Response$1.class
+errors(0), warnings(0), notes(0); bytes(4288), time  0.01
+ 92% done, 36/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Request.class
+errors(0), warnings(0), notes(0); bytes(40710), time  0.18
+ 92% done, 35/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$KeyVal.class
+errors(0), warnings(0), notes(0); bytes(11935), time  0.02
+ 92% done, 34/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$Base.class
+errors(0), warnings(0), notes(0); bytes(20075), time  0.07
+ 92% done, 33/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/HttpConnection$1.class
+errors(0), warnings(0), notes(0); bytes(2624), time  0.02
+ 93% done, 32/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DescendableLinkedList.class
+errors(0), warnings(0), notes(0); bytes(19463), time  0.02
+ 93% done, 31/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DescendableLinkedList$DescendingIterator.class
+errors(0), warnings(0), notes(0); bytes(7944), time  0.00
+ 93% done, 30/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DescendableLinkedList$1.class
+errors(0), warnings(0), notes(0); bytes(2701), time  0.00
+ 93% done, 29/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/helper/DataUtil.class
+errors(0), warnings(0), notes(0); bytes(68681), time  0.65
+ 93% done, 28/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/ListLinks.class
+errors(0), warnings(0), notes(0); bytes(24146), time  0.17
+ 94% done, 27/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/HtmlToPlainText.class
+errors(0), warnings(0), notes(0); bytes(14979), time  0.09
+ 94% done, 26/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/HtmlToPlainText$FormattingVisitor.class
+errors(0), warnings(0), notes(0); bytes(23638), time  0.13
+ 94% done, 25/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/examples/HtmlToPlainText$1.class
+errors(0), warnings(0), notes(0); bytes(2665), time  0.00
+ 94% done, 24/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection.class
+errors(0), warnings(0), notes(0); bytes(5766), time  0.00
+ 95% done, 23/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Response.class
+errors(0), warnings(0), notes(0); bytes(3264), time  0.00
+ 95% done, 22/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Request.class
+errors(0), warnings(0), notes(0); bytes(4752), time  0.00
+ 95% done, 21/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Method.class
+errors(0), warnings(0), notes(0); bytes(25754), time  0.14
+ 95% done, 20/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$KeyVal.class
+errors(0), warnings(0), notes(0); bytes(2400), time  0.00
+ 95% done, 19/466 to go: ..\dist\lib\jsoup-1.9.2.jar:/org/jsoup/Connection$Base.class
+errors(0), warnings(0), notes(0); bytes(3601), time  0.00
+ 96% done, 18/466 to go: ..\dist\firstSpider.jar:/firstspider/network/AddressCatcher.class
+errors(0), warnings(0), notes(0); bytes(74865), time  0.71
+ 96% done, 17/466 to go: ..\dist\firstSpider.jar:/firstspider/network/AddressCatcher$miTM.class
+errors(0), warnings(0), notes(0); bytes(5909), time  0.01
+ 96% done, 16/466 to go: ..\dist\firstSpider.jar:/firstspider/local/Filename.class
+errors(0), warnings(0), notes(0); bytes(7481), time  0.04
+ 96% done, 15/466 to go: ..\dist\firstSpider.jar:/firstspider/local/Downloader.class
+errors(0), warnings(0), notes(0); bytes(34271), time  0.24
+ 96% done, 14/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel.class
+errors(0), warnings(0), notes(0); bytes(136218), time  0.34
+ 97% done, 13/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$5.class
+errors(0), warnings(0), notes(0); bytes(4312), time  0.00
+ 97% done, 12/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$4.class
+errors(0), warnings(0), notes(0); bytes(4312), time  0.02
+ 97% done, 11/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$3.class
+errors(0), warnings(0), notes(0); bytes(4400), time  0.00
+ 97% done, 10/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$2.class
+errors(0), warnings(0), notes(0); bytes(8576), time  0.03
+ 98% done, 9/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderPanel$1.class
+errors(0), warnings(0), notes(0); bytes(4312), time  0.00
+ 98% done, 8/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderFrame.class
+errors(0), warnings(0), notes(0); bytes(129217), time  0.28
+ 98% done, 7/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/SpiderFrame$1.class
+errors(0), warnings(0), notes(0); bytes(8162), time  0.00
+ 98% done, 6/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams.class
+errors(0), warnings(0), notes(0); bytes(11094), time  0.04
+ 98% done, 5/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams$3.class
+errors(0), warnings(0), notes(0); bytes(6165), time  0.00
+ 99% done, 4/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams$2.class
+errors(0), warnings(0), notes(0); bytes(7552), time  0.01
+ 99% done, 3/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/LoopedStreams$1.class
+errors(0), warnings(0), notes(0); bytes(7781), time  0.00
+ 99% done, 2/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/ConsoleTextArea.class
+errors(0), warnings(0), notes(0); bytes(129143), time  0.16
+ 99% done, 1/466 to go: ..\dist\firstSpider.jar:/firstspider/UI/ConsoleTextArea$1.class
+errors(0), warnings(0), notes(0); bytes(13238), time  0.06
+Processing startup profile...
+New "D:/firstSpider/exe/Ice_BackupTool_jetpdb/nums.clnums" is generated
+Preparing resources for packing ...
+Processing ../dist/firstSpider.jar ...
+Processing ../dist/lib/jsoup-1.9.2.jar ...
+Processing ../dist/lib/beansbinding-1.2.1.jar ...
+Resources were successfully prepared for packing.
+-------------------------------------------------------------------
+files: 466  errors: 0  warnings: 0  notices: 0
+
+2 methods were compiled with a lower optimization level
+due to known issues in the compiler.
+
+For more details, see JET User's Guide (Chapter "Application considerations",
+Section "Baseline compilation").
+
+
+XDS Link Version 2.24.17 Copyright (c) Excelsior 1995-2015.
+No errors, no warnings
+
+Link time 0:01.18
+
+Total compilation time 1:17.62
+Startup Accelerator Helper Version 1.2 Copyright (c) Excelsior 2010-2015.
+
+Running application:
+  "D:\firstSpider\exe\Ice_BackupTool.exe"
+
+
+Application terminated with exit code 0
+Profile successfully hard-wired into "D:\firstSpider\exe\Ice_BackupTool.exe"
+

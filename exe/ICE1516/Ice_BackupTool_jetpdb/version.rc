@@ -1,0 +1,30 @@
+1 VERSIONINFO 
+ FILEVERSION 0,0,0,3 
+ PRODUCTVERSION 0,0,0,3 
+ FILEFLAGSMASK 0x3fL 
+ FILEFLAGS 0x0L 
+ FILEOS 0x4L 
+ FILETYPE 0x1L 
+ FILESUBTYPE 0x0L 
+BEGIN 
+    BLOCK "StringFileInfo" 
+    BEGIN 
+        BLOCK "00001200" 
+        BEGIN 
+            VALUE "Comments", "\0" 
+            VALUE "CompanyName", "Under MIT Lisence\0" 
+            VALUE "FileDescription", "Ice_BackupTool\0" 
+            VALUE "FileVersion", "0.0.0.3\0" 
+            VALUE "InternalName", "Ice_BackupTool\0" 
+            VALUE "LegalCopyright", "Copyright \x00a9 2016 Under MIT Lisence\0" 
+            VALUE "LegalTrademarks", "\0" 
+            VALUE "OriginalFilename", "Ice_BackupTool.exe\0" 
+            VALUE "ProductName", "Ice_BackupTool\0" 
+            VALUE "ProductVersion", "0.0.0.3\0" 
+        END 
+    END 
+    BLOCK "VarFileInfo" 
+    BEGIN 
+        VALUE "Translation", 0x0000, 0x1200 
+    END 
+END 

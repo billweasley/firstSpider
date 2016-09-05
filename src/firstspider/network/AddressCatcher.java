@@ -165,7 +165,7 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
             return true;
         };
         HttpsURLConnection.setDefaultHostnameVerifier(hv);
-        String url = "https://ice.xjtlu.edu.cn/login/index.php";
+        String url = "https://ice-archive.xjtlu.edu.cn/2015/login/index.php";
         Connection con = Jsoup.connect(url).timeout(50000);//获取连接
         Response rs = con.header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586").execute();//获取响应
 
@@ -192,7 +192,7 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
 
     public Map<String, String> getCourse() {
 
-        Connection con3 = Jsoup.connect("http://ice.xjtlu.edu.cn/my/index.php?mynumber=-2").timeout(300000);
+        Connection con3 = Jsoup.connect("http://ice-archive.xjtlu.edu.cn/2015/my/index.php?mynumber=-2").timeout(300000);
         Response visit = null;
         Document d2 = null;
         Elements courseTitles = null;
@@ -245,7 +245,7 @@ public class AddressCatcher extends Observable implements Observer, Runnable {
                     String tempFileAddrStr = tempFileAddr.attr("href");
                     Response innerpage = null;
                     try {
-                        innerpage = Jsoup.connect(tempFileAddrStr).timeout(30000).ignoreContentType(true).method(Method.GET).cookies(session).execute();
+                        innerpage = Jsoup.connect(tempFileAddrStr).timeout(300000).ignoreContentType(true).method(Method.GET).cookies(session).execute();
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }

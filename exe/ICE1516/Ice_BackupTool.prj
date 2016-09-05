@@ -1,0 +1,65 @@
+%%Excelsior JET v11.0 project file
+
+-jpiiproject=D:\firstSpider\exe\Ice_BackupTool.jpn
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-jetcpenablemanualsettings+
+-multiapp-
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-cryptseed=4QrWl9nTASSC7AVTvEPVWxuTphwNltG4eYCewQsw6eyJUz6UL7epIyJ5z1H5HiQR
+-inlinelimit=100
+-inlinetolimit=1000
+-jetcplastpage:=PageCompile
+-jetrt=Desktop
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-main=firstspider/UI/SpiderFrame
+-outputdir=.
+-outputname=Ice_BackupTool
+-saprofmode=JETCPONLY
+-saproftimeout=20
+-stacklimit=900000
+-startupprofile=./Ice_BackupTool.startup
+-versioninfocompanyname=Under MIT Lisence
+-versioninfofiledescription=Ice_BackupTool
+-versioninfolegalcopyright=Copyright \x00a9 2016 Under MIT Lisence
+-versioninfoproductname=Ice_BackupTool
+-versioninfoproductversion=0.0.0.3
+
+
+
+
+!classpathentry ../dist/firstSpider.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
+!classpathentry ../dist/lib/jsoup-1.9.2.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry ../dist/lib/beansbinding-1.2.1.jar
+  -pack=noncompiled
+  -protect=nomatter
+  -optimize=all
+!end
+!classpathentry ../dist/img
+  -pack=none
+  -protect=all
+  -optimize=all
+!end
+
+!module ../dist/img/favicon.ico
+!module ./Ice_BackupTool.usg
+
