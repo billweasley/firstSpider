@@ -1,5 +1,7 @@
 # 简述 Brief Introduction:
-最新版本 The lastest version：0.0.0.3
+最新版本 The lastest version：0.0.0.4
+现在支持16-17新版ICE （其实早就做好了没写说明）
+Now support the new version 16/17 new version ICE
 这是一个爆肝5天干出来的爬虫，也是我写得第一个爬虫。    
 This is a spider coding for 5 days and my first one.    
 然而对大多数人来说，它只是批量备份ICE课件并分类的小工具。    
